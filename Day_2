@@ -1,0 +1,76 @@
+// 5- wap to find sum of digits of a number 
+#include <stdio.h>
+int main() {
+    int num, sum = 0, remainder;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if (num < 0) {
+        num = -num;
+    }
+    while (num > 0) {
+        remainder = num % 10;
+        sum = sum + remainder;
+        num = num / 10;
+    }
+    printf("Sum of digits = %d\n", sum);
+    return 0;
+}
+
+//6- wap to reverse a number 
+#include <stdio.h>
+
+int main() {
+    int num, reverseNum = 0, remainder;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    while (num != 0) {
+        remainder = num % 10;                
+        reverseNum = reverseNum * 10 + remainder; 
+        num /= 10;                        
+    }
+    printf("Reversed number = %d\n", reverseNum);
+    return 0;
+}
+
+//7- wap to find the product of digits 
+#include <stdio.h>
+
+int main() {
+    int num, remainder;
+    long long product = 1;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    if (num < 0) {
+        num = -num;
+    }
+    if (num == 0) {
+        product = 0;
+    }
+    while (num > 0) {
+        remainder = num % 10;       
+        product = product * remainder; 
+        num = num / 10;          
+    }
+    printf("Product of digits = %lld\n", product);
+    return 0;
+}
+
+//8- wap to find weather a number is palindrome or not 
+#include <stdio.h>
+int main() {
+    int num, originalNum, reversedNum = 0, remainder;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    originalNum = num;
+    while (num != 0) {
+        remainder = num % 10;
+        reversedNum = reversedNum * 10 + remainder;
+        num /= 10;
+    }
+    if (originalNum == reversedNum) {
+        printf("%d is a palindrome.\n", originalNum);
+    } else {
+        printf("%d is not a palindrome.\n", originalNum);
+    }
+    return 0;
+}
