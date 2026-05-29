@@ -16,7 +16,7 @@ int main() {
     return 0;
 }
 
-//6- wap to reverse a number 
+// 6- wap to reverse a number 
 #include <stdio.h>
 
 int main() {
@@ -32,7 +32,7 @@ int main() {
     return 0;
 }
 
-//7- wap to find the product of digits 
+// 7- wap to find the product of digits 
 #include <stdio.h>
 
 int main() {
@@ -55,7 +55,7 @@ int main() {
     return 0;
 }
 
-//8- wap to find weather a number is palindrome or not 
+// 8- wap to find weather a number is palindrome or not 
 #include <stdio.h>
 int main() {
     int num, originalNum, reversedNum = 0, remainder;
