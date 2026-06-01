@@ -1,4 +1,4 @@
-//  1- wap to calculate the sum of first natural number 
+//  1- wap to calculate the sum of first natural number
 #include <stdio.h>
 
 int main() {
