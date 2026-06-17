@@ -4,7 +4,6 @@ int main() {
     int size1, size2, size3;
     int arr1[50], arr2[50], merged[100];
     int i, j;
-
     printf("Enter the size of the first array: ");
     scanf("%d", &size1);
     printf("Enter %d elements for the first array:\n", size1);
