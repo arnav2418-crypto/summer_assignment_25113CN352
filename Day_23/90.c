@@ -4,7 +4,6 @@ int main() {
     char str[100];
     int i, j;
     int found = 0;
-
     printf("Enter a string: ");
     scanf("%[^\n]s", str); 
     for (i = 0; str[i] != '\0'; i++) {
