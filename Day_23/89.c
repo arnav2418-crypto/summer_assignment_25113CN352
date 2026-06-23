@@ -7,7 +7,6 @@ int main() {
     char str[100];
     int count[MAX_CHAR] = {0}; 
     int found = 0;
-
     printf("Enter a string: ");
     scanf("%[^\n]s", str); 
     for (int i = 0; str[i] != '\0'; i++) {
