@@ -9,7 +9,6 @@ bool isRotation(char* str1, char* str2) {
     }
     int len = strlen(str1);
     char* temp = (char*)malloc(2 * len + 1);
-
     if (temp == NULL) return false; 
     strcpy(temp, str1);
     strcat(temp, str1);
