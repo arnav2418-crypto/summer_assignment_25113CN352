@@ -10,7 +10,6 @@ void printCommonCharacters(char *str1, char *str2) {
     for (int i = 0; str2[i] != '\0'; i++) {
         count2[(unsigned char)str2[i]]++;
     }
-
     printf("Common characters: ");
     for (int i = 0; i < 256; i++) {
         if (count1[i] > 0 && count2[i] > 0) {
@@ -22,13 +21,11 @@ void printCommonCharacters(char *str1, char *str2) {
             found = 1;
         }
     }
-
     if (!found) {
         printf("None");
     }
     printf("\n");
 }
-
 int main() {
     char str1[100];
     char str2[100];
