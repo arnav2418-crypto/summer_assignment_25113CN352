@@ -24,7 +24,6 @@ void mergeSortedArrays(int arr1[], int n1, int arr2[], int n2, int merged[]) {
         k++;
     }
 }
-
 int main() {
     int n1, n2;
     printf("Enter the number of elements in the first array: ");
