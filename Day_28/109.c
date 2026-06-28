@@ -8,7 +8,6 @@ struct Book {
     char title[50];
     char author[50];
 };
-
 int main() {
     struct Book library[MAX_BOOKS];
     int count = 0;
