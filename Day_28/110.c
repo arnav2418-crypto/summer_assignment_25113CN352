@@ -6,7 +6,6 @@ struct BankAccount {
     int accNumber;
     float balance;
 };
-
 void createAccount(struct BankAccount *acc) {
     printf("Enter Account Number: ");
     scanf("%d", &acc->accNumber);
