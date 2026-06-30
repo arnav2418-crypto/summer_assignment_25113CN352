@@ -4,7 +4,6 @@ struct Student {
     char name[50]; 
     float marks;
 };
-
 int main() {
     struct Student s[3]; 
     int i;
