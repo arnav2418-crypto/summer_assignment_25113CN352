@@ -8,7 +8,6 @@ struct Employee {
     char name[50];
     float salary;
 };
-
 struct Employee emp[MAX];
 int count = 0;
 
