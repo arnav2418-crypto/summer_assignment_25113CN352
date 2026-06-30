@@ -6,7 +6,6 @@ struct Book {
     char title[50];
     char author[50];
 };
-
 int main() {
     struct Book library[100];
     int count = 0, choice, searchId, i;
